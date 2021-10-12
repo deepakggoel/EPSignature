@@ -8,7 +8,7 @@ let package = Package(
         .iOS(.v9)
     ],
     products: [
-        .library(name: "EPSignature", targets: ["EPSignature"]
+        .library(name: "EPSignature", targets: ["EPSignature"])
     ],
     targets: [
         .target(name: "EPSignature", path: "Pod/Classes")
